@@ -1,2 +1,2 @@
 # sailschat
-### a Sails application
+### a Sails testing application
