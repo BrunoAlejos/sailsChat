@@ -14,6 +14,7 @@ var bcrypt = require('bcrypt');
 module.exports = {
 
     attributes: {
+        surname : 'string',
         username: 'string',
         password: 'string',
         loggedIn: 'boolean'
