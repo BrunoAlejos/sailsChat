@@ -1,4 +1,7 @@
 language: node_js
 node_js:
   - 0.10
-#testing
+deploy:
+  provider: heroku
+  api_key:  cda33a67-6792-49a4-832f-c9c51d49ed68
+  app: sailschat
