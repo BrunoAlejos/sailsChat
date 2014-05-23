@@ -3,8 +3,10 @@
     "private": true,
     "version": "0.0.0",
     "description": "a Sails application",
+    "engines": {
+        "node": "0.10.x"
+    },
     "dependencies": {
-        "node": "0.10.28", 
         "sails": "0.9.16",
         "grunt": "0.4.1",
         "sails-disk": "~0.9.0",
