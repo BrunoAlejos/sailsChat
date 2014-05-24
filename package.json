@@ -1,25 +1,32 @@
 {
-    "name": "sailschat",
-    "private": true,
-    "version": "0.0.0",
-    "description": "a Sails application",
-    "engines": {
-        "node": "0.10.x"
-    },
-    "dependencies": {
-        "sails": "0.9.16",
-        "grunt": "0.4.1",
-        "sails-disk": "~0.9.0",
-        "ejs": "0.8.4",
-        "optimist": "0.3.4",
-        "bcrypt": "0.7.8"
-    },
-    "scripts": {
-        "start": "node app.js",
-        "debug": "node debug app.js"
-    },
-    "main": "app.js",
-    "repository": "",
-    "author": "",
-    "license": ""
+  "name": "sailschat",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "sails": "0.9.16",
+    "grunt": "0.4.1",
+    "sails-disk": "~0.9.0",
+    "ejs": "0.8.4",
+    "optimist": "0.3.4",
+    "bcrypt": "0.7.8"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": "",
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "assert": "^1.1.1",
+    "grunt": "^0.4.5",
+    "grunt-mocha-istanbul": "^1.4.1",
+    "mocha": "^1.19.0",
+    "sinon": "^1.10.0"
+  }
 }
