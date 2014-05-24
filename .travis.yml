@@ -1,6 +1,10 @@
 language: node_js
 node_js:
-- 0.10
+- 0.1
 deploy:
+  provider: heroku
   api_key:
-    secure: OVpjHwJ3aqVCl0lW/x19Pw/ViNDdNljTabtNgB9/e7M9VZkBXIfvyqKPIMCtrtV96yVBaRWqFx5xNQbgScc8+MB/bTXOT6pf0dHJZ+GOMCVgl/zQp9GokgG311cC1wiSCrggQ10jb3RURjI+JpjGa3DlD8O3r7EYFKMTPju9niM=
+    secure: FthHsNwqVN+cW0ocdPxIfqOywpASRd1/HlZPY/2d6DB+2Gbf/JtBaqmb5t9Vqht9ab51VXPxw5Xw74s8FgyBhYXRXgi+pfd7S8prrfA+OSpsqw7xAZnP/dsNWMyF51+lCB4xR6XO/Zl3zeTXhHOCvpJ9HDHdBfZqBipcfXTFvKY=
+  app: sailschat
+  on:
+    repo: BrunoAlejos/sailsChat
